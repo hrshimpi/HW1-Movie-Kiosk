@@ -1,14 +1,52 @@
-<mxfile host="app.diagrams.net">
-<diagram id="use-case" name="Movie-Kiosk-Use-Case">
-<mxGraphModel dx="1000" dy="700" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/>
-<mxCell id="boundary" value="Movie Theater Ticket Kiosk" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="240" y="40" width="380" height="360" as="geometry"/></mxCell>
-<mxCell id="actor" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1"><mxGeometry x="70" y="190" width="40" height="80" as="geometry"/></mxCell>
-<mxCell id="uc1" value="View Showtimes" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="330" y="95" width="200" height="70" as="geometry"/></mxCell>
-<mxCell id="uc2" value="Select Seat" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="330" y="195" width="200" height="70" as="geometry"/></mxCell>
-<mxCell id="uc3" value="Purchase Ticket" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="330" y="295" width="200" height="70" as="geometry"/></mxCell>
-<mxCell id="l1" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;" edge="1" parent="1" source="actor" target="uc1"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
-<mxCell id="l2" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;" edge="1" parent="1" source="actor" target="uc2"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
-<mxCell id="l3" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;" edge="1" parent="1" source="actor" target="uc3"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
-</root></mxGraphModel>
-</diagram>
+<mxfile host="app.diagrams.net" scale="1" border="0">
+  <diagram id="use-case" name="Movie-Kiosk-Use-Case">
+    <mxGraphModel dx="1494" dy="411" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8F96LsOlaBqL-vqZLHvo-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;fontStyle=1;fontSize=14;spacingTop=8;fillColor=#f8f9fa;strokeColor=#666666;" value="Movie Theater Ticket Kiosk" vertex="1">
+          <mxGeometry height="470" width="560" x="179" y="421" as="geometry" />
+        </mxCell>
+        <mxCell id="8F96LsOlaBqL-vqZLHvo-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="Customer" vertex="1">
+          <mxGeometry height="80" width="40" x="64" y="596" as="geometry" />
+        </mxCell>
+        <mxCell id="8F96LsOlaBqL-vqZLHvo-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="Payment System" vertex="1">
+          <mxGeometry height="80" width="40" x="819" y="656" as="geometry" />
+        </mxCell>
+        <mxCell id="8F96LsOlaBqL-vqZLHvo-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="View Showtimes" vertex="1">
+          <mxGeometry height="70" width="160" x="229" y="481" as="geometry" />
+        </mxCell>
+        <mxCell id="8F96LsOlaBqL-vqZLHvo-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Select Seat" vertex="1">
+          <mxGeometry height="70" width="160" x="229" y="601" as="geometry" />
+        </mxCell>
+        <mxCell id="8F96LsOlaBqL-vqZLHvo-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Purchase Ticket" vertex="1">
+          <mxGeometry height="70" width="160" x="229" y="721" as="geometry" />
+        </mxCell>
+        <mxCell id="8F96LsOlaBqL-vqZLHvo-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Process Payment" vertex="1">
+          <mxGeometry height="70" width="160" x="519" y="661" as="geometry" />
+        </mxCell>
+        <mxCell id="8F96LsOlaBqL-vqZLHvo-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Provide Confirmation" vertex="1">
+          <mxGeometry height="70" width="160" x="519" y="781" as="geometry" />
+        </mxCell>
+        <mxCell id="8F96LsOlaBqL-vqZLHvo-9" edge="1" parent="1" source="8F96LsOlaBqL-vqZLHvo-2" style="endArrow=none;html=1;rounded=0;" target="8F96LsOlaBqL-vqZLHvo-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8F96LsOlaBqL-vqZLHvo-10" edge="1" parent="1" source="8F96LsOlaBqL-vqZLHvo-2" style="endArrow=none;html=1;rounded=0;" target="8F96LsOlaBqL-vqZLHvo-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8F96LsOlaBqL-vqZLHvo-11" edge="1" parent="1" source="8F96LsOlaBqL-vqZLHvo-2" style="endArrow=none;html=1;rounded=0;" target="8F96LsOlaBqL-vqZLHvo-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8F96LsOlaBqL-vqZLHvo-12" edge="1" parent="1" source="8F96LsOlaBqL-vqZLHvo-6" style="endArrow=open;endSize=10;dashed=1;html=1;fontSize=11;labelBackgroundColor=#ffffff;rounded=0;" target="8F96LsOlaBqL-vqZLHvo-7" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8F96LsOlaBqL-vqZLHvo-13" edge="1" parent="1" source="8F96LsOlaBqL-vqZLHvo-6" style="endArrow=open;endSize=10;dashed=1;html=1;fontSize=11;labelBackgroundColor=#ffffff;rounded=0;" target="8F96LsOlaBqL-vqZLHvo-8" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8F96LsOlaBqL-vqZLHvo-14" edge="1" parent="1" source="8F96LsOlaBqL-vqZLHvo-7" style="endArrow=none;html=1;rounded=0;" target="8F96LsOlaBqL-vqZLHvo-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>
